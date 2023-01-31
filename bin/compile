@@ -82,4 +82,4 @@ julia --project=$(pwd) -e "using Pkg; pkg\"instantiate\";pkg\"precompile\";
   end
   close(io)"
 
-cp -r ~/.julia ${BUILD_DIR}/.julia
+#cp -r ~/.julia ${BUILD_DIR}/.julia
