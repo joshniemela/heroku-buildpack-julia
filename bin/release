@@ -4,5 +4,5 @@
 cat <<EOF
 ---
 default_process_types:
-  web: julia --project=$(pwd) ./JuristicGraphHTR.jl $PORT
+  web: julia --project=$(pwd) ./src/JuristicGraphHTR.jl $PORT
 EOF
